@@ -1,7 +1,7 @@
 {
-  "name": "app",
-  "version": "1.0.0",
-  "description": "",
+  "name": "malloeai",
+  "version": "0.1.0",
+  "description": "MalloeAI is a portable AI launcher designed for you to be able to use AI on the go. This software is made 100% by humans with tutoring of Claude artificial intelligence.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

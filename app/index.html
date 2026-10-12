@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MalloeAI - Portable AI Assistant</title>
+    <title>MalloeAI - Your Portable AI Assistant</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>MalloeAI</h1>
+    <header class="topbar">
+    <img src="..\assets/logo.png" alt="MalloeAI logo" class="logo">
+    <h2 class="maloe_header">MalloeAI</h2>
+    </header>
+    <div class="app-body">
+    <aside class="sidebar">
+        <!-- sadržaj sidebar-a ide ovde -->
+    </aside>
+    <div class="main-content">
+    <footer class="composer-wrap">
+    <div class="input-container">
+        <textarea class="prompt" rows="1" placeholder="Reply..."></textarea>
+        <button class="send" aria-label="Pošalji">
+            <img class="sende" src="..\assets\send.png" alt="send">
+        </button>
+    </div>
+    <div class="input-footer">
+        <p class="disclaimer">Malloe is AI and it can make mistakes.</p>
+        <span class="model-name">Qwen 2.5</span>
+    </div>
+</footer>
 </body>
 </html>

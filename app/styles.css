@@ -1,0 +1,116 @@
+.topbar {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 16px;
+    border-bottom: 1px solid #000000;
+    flex-shrink: 0;
+    margin: 0;
+    background-color: #202020;
+}
+
+.logo {
+    height: auto;
+    width: 40px;
+}
+
+.brand-name {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+body{
+    margin: 0;
+    background-color: #353535;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-body {
+    flex: 1;
+    display: flex;
+    min-height: 0;
+}
+
+.sidebar {
+    width: 240px;
+    flex-shrink: 0;
+    background-color: #1a1a1a;
+    overflow-y: auto;
+}
+
+.main-content {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.maloe_header{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.composer-wrap {
+    width: min(760px, calc(100% - 32px));
+    margin: 0 auto 12px;
+    flex-shrink: 0;
+}
+
+.input-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    padding: 8px 8px 8px 16px;
+    border: 1px solid #2a2f3a;
+    border-radius: 25px;
+    background-color: #000000;
+}
+
+.input-container textarea {
+    flex: 1;
+    max-height: 200px;
+    border: 0;
+    outline: 0;
+    resize: none;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    field-sizing: content;
+}
+.input-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #8b93a3;
+}
+
+.input-footer .disclaimer {
+    margin: 0;
+}
+
+.sende{
+    width: 20px;
+    height: auto;
+}
+
+.send {
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.prompt{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: Arial;
+}

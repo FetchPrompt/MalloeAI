@@ -1,4 +1,4 @@
-const {app, BrowserWindow} = require("electron");
+const {app, BrowserWindow, Menu} = require("electron");
 const path = require("path");
 const { spawn } = require("child_process");
 const PORT = 8080;
@@ -38,6 +38,7 @@ function startServer(){
 
 app.whenReady().then(() => {
     startServer();
+    Menu.setApplicationMenu(null);
     createWindow();
 });
 
